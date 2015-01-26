@@ -84,4 +84,36 @@ stdClass Object
 )
 </code></pre>
 
+
+### Элементы каталога
+
+<pre><code>
+$arResult
+stdClass Object
+(
+    [ehdDictionaryItems] => stdClass Object
+        (
+            [ehdDictionary] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 0
+                            [parent_id] => 
+                            [name] => Нет данных
+                            [enName] => 
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [id] => 1
+                            [parent_id] => 
+                            [name] => Боковые проезды главных магистралей
+                            [enName] => 
+                        )
+                        ...
+                )
+        )
+)
+</code></pre>
+
 ***

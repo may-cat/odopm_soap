@@ -66,3 +66,18 @@ print_r($arResult);
 echo "</pre>";
 
 
+// ДЕМО: получаем элементы каталога
+echo "<h1>Элементы каталога</h1>";
+$arResult = array();
+try{
+    $arResult = $client->getDictItem(array(
+        'dictionaryId'=>59,
+        'Start'=>0,
+        'End'=>23
+    ));
+} catch (Exception $e) {
+    echo "Exception: ",$e->GetMessage();
+}
+echo '$arResult<pre>';
+print_r($arResult);
+echo "</pre>";

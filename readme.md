@@ -6,8 +6,9 @@
 ## Результаты работы приведённого скрипта:
 ***
 
-Список функций:
+### Список функций:
 
+<pre><code>
 $arResult
 Array
 (
@@ -20,8 +21,11 @@ Array
     [6] => getDictItemResponse getDictItem(getDictItem $parameters)
     [7] => getCatalogSpecResponse getCatalogSpec(getCatalogSpec $parameters)
 )
-Список каталогов, доступных пользователю
+</code></pre>
 
+### Список каталогов, доступных пользователю
+
+<pre><code>
 $arResult
 stdClass Object
 (
@@ -46,8 +50,11 @@ stdClass Object
         )
 
 )
-Список справочников
+</code></pre>
 
+### Список справочников
+
+<pre><code>
 $arResult
 stdClass Object
 (
@@ -75,5 +82,6 @@ stdClass Object
         )
 
 )
+</code></pre>
 
 ***
